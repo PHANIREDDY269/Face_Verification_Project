@@ -1,0 +1,9 @@
+opencv-python==4.12.0.88
+numpy
+face-recognition==1.3.0
+pillow
+pdf2image
+pypdf
+PyMuPDF
+onnxruntime
+# torch            # only if you want to use .pth models; otherwise leave commented

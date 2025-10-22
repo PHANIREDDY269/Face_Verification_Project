@@ -1,0 +1,35 @@
+# ===== Python cache and compiled files =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Logs and runtime artifacts =====
+logs/
+*.log
+*.tmp
+
+# ===== Generated / temporary images =====
+matched_faces/
+images/*.jpg
+images/*.png
+
+# ===== IDE / editor settings =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS-specific files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Jupyter and experiments =====
+*.ipynb_checkpoints/
