@@ -28,3 +28,10 @@ An AI-powered real-time **Face Verification System** that validates a person’s
 ---
 
 ## 🧩 Project Structure
+Command:
+python main.py --resume .\images\resume_image.jpg --passport .\passport.jpg `
+  --model-dir .\models\anti_spoof `
+  --width 320 --height 240 `
+  --live-th 0.70 --sim-th 0.60 `
+  --require-blinks 1 --require-yaw 10 `
+  --save-mode once
